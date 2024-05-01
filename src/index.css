@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+    border: 1px solid black;
+} */
+
+
+
+
+.react-quill .ql-snow.ql-toolbar {
+    display: block;
+    background: #eaecec;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.react-quill .ql-container {
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background: #fefcfc;
+}
+
+.react-quill .ql-bubble .ql-editor {
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+.react-quill .ql-editor {
+    min-height: 20rem;
+    max-height: 20rem;
+}
+
+@media (max-width: 540px) {
+    .custom-bottom-mobile{ 
+        bottom:40vh;
+    }
+}
